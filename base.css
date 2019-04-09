@@ -13,3 +13,12 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+
+.three-col-grid .grid-item {
+  width: 33.33333%;
+  float: left;
+}
+
+.grid-item {
+  background-color: blue;
+}
