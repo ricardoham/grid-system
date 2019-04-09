@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ricardoham/grid-system/issues"
   },
-  "homepage": "https://github.com/ricardoham/grid-system#readme"
+  "homepage": "https://github.com/ricardoham/grid-system#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
 }

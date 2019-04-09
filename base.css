@@ -17,8 +17,18 @@ html {
 .three-col-grid .grid-item {
   width: 33.33333%;
   float: left;
+  background-color: blue;
+
+}
+
+.three-col-grid:after {
+  display: table;
+  clear: both;
+  content: '';
 }
 
 .grid-item {
-  background-color: blue;
+  width: calc((100% -20px * 2) / 3);
+  margin-right: 20px;
+  float: left;
 }
